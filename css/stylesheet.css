@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: #f2f2f2;
+}
+
+h2 {
+  color: blue;
+  width: 100%;
+  margin: 30px;
+  padding: 30px;
+  background-color: aqua;
+}
+.test {
+  display: flex;
+  background-color: #ff0021;
+}
+
+.parent {
+  padding: 10px;
+  background-color: #9eefff;
+  display: flex;
+}
+#test1 {
+  justify-content: flex-start;
+}
+#test2 {
+  justify-content: flex-end;
+}
+#test3 {
+  justify-content: center;
+}
